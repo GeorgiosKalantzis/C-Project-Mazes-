@@ -1,4 +1,4 @@
-# C-Project-Mazes-
+# MazesProject
 
 # C++ and Multidimensional Arrays 
 
