@@ -144,20 +144,5 @@ public:
   // Changes the cell's value to VISITED
   void setVisited(int cellRow, int cellCol);
 
-
-  // Outputs the maze using simple ASCII-art to the specified output stream.
-  // The output format is as follows, using the example maze from the
-  // assignment write-up.  (The text to the right of the maze is purely
-  // explanatory, and you don't need to output it.)
-  //
-  // 3 4                 (# of rows and then # of columns)
-  // +---+---+---+---+   (each cell is 3 spaces wide, with a + at each corner)
-  // | S     |       |   (walls indicated by --- or |)
-  // +---+   +   +   +   (start indicated by S, end indicated by E)
-  // |   |   |   |   |
-  // +   +   +   +   +
-  // |           | E |
-  // +---+---+---+---+
-  // 
   void print(ostream &os) const;
 };
