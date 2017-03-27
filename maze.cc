@@ -1,9 +1,5 @@
 #include "maze.hh"
 
-/////////////////////
-// Private helpers //
-/////////////////////
-
 int Maze::getArrayIndex(const Location loc) const{
 
 	int noExpandCols = 2 * numCols + 1;
