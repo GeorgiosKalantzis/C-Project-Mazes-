@@ -9,7 +9,7 @@
 using namespace std;
 
 
-/*===========================================================================
+/*
  * Test code for two-argument constructor
  */
 
@@ -51,7 +51,7 @@ void test_constructor(TestContext &ctx) {
 }
 
 
-/*===========================================================================
+/*
  * Test code for get/set start/end value
  */
 
@@ -77,7 +77,7 @@ void test_start_end(TestContext &ctx) {
 }
 
 
-/*===========================================================================
+/*
  * Test code for get-neighbor-cell operation
  */
 
@@ -95,7 +95,7 @@ void test_neighbor(TestContext &ctx) {
 }
 
 
-/*===========================================================================
+/*
  * Test code for get/set cell operations
  */
 
@@ -134,7 +134,7 @@ void test_get_set_cell(TestContext &ctx) {
 }
 
 
-/*===========================================================================
+/*
  * Test code for has-wall/set-wall/clear-wall operations
  */
 
@@ -260,7 +260,7 @@ void test_walls(TestContext &ctx) {
 }
 
 
-/*===========================================================================
+/*
  * Test code for clear() operation
  */
 
@@ -308,7 +308,7 @@ void test_clear(TestContext &ctx) {
 }
 
 
-/*===========================================================================
+/*
  * Test code for set-all-walls operation
  */
 
@@ -358,7 +358,7 @@ void test_set_all_walls(TestContext &ctx) {
 }
 
 
-/*===========================================================================
+/*
  * Test code for copy constructor
  *
  * We have this so far down the sequence because we want to be sure everything
@@ -400,7 +400,7 @@ void test_copy_ctor(TestContext &ctx) {
 }
 
 
-/*===========================================================================
+/*
  * Test code for assignment operator
  *
  * We have this so far down the sequence because we want to be sure everything
@@ -464,7 +464,7 @@ void test_assignment(TestContext &ctx) {
     ctx.result();
 }
 
-/*===========================================================================
+/*
  * Test code for displaying maze
  *
  */
@@ -493,7 +493,7 @@ void test_print() {
 }
 
 
-/*===========================================================================
+/*
  * Main program to run tests!
  */
 
